@@ -120,7 +120,7 @@ User?model;
       emit(GetImagesLoadingState());
 
         DioHelper.getData(
-            url: 'https://flutter.prominaagency.com/api/my-gallery',
+            url: GALLERY,
             token: token,
       ).then((value)
         {
